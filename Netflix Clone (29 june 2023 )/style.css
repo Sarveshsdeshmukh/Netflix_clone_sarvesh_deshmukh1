@@ -1,0 +1,1634 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* CSS for the Header Section */
+/* Max-width : 1400px */
+@media screen and (max-width: 1400px) {
+  .headerContainer {
+    width: 100vw;
+    height: 105vh;
+    background-image: url(Assets/MainBackground.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .headerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 12.9vh;
+    padding: 0 10vw;
+  }
+
+  .headerNavImg1 {
+    width: 14vw;
+    height: 16vh;
+  }
+
+  .headerNavSection {
+    width: 24vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .headerNavButtonImg2 {
+    width: 2vw;
+    height: 3vh;
+  }
+
+  .headerNavSectionDiv1 button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10vw;
+    height: 4.8vh;
+    font-size: 1.4vw;
+    background-color: transparent;
+    border: 0.1vh solid #ffffff;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 0.8vh;
+  }
+
+  .headerNavSectionDiv2 button {
+    background-color: #e50914;
+    width: 6vw;
+    height: 4.8vh;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.2vw;
+    border: none;
+    border-radius: 0.8vh;
+  }
+
+  .headerNavSectionDiv2 button:hover {
+    cursor: pointer;
+  }
+
+  /* Main Section */
+
+  .headerMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    width: 70vw;
+    height: 44vh;
+    margin: 22vh auto auto auto;
+  }
+
+  .headerMain h1 {
+    font-size: 3.5vw;
+    font-weight: bolder;
+  }
+
+  .headerMain h2 {
+    font-size: 1.8vw;
+    font-weight: 400;
+  }
+
+  .headerMain h3 {
+    font-size: 1.4vw;
+    font-weight: 300;
+  }
+
+  .headerMainInput {
+    padding: 0 2vw;
+  }
+  .headerMainInput input {
+    width: 28vw;
+    height: 9vh;
+    background-color: transparent;
+    font-size: 1.2vw;
+    padding-left: 2vw;
+    border-radius: 0.8vh;
+    border-color: #acacac;
+  }
+
+  .headerMainInput button {
+    width: 14vw;
+    height: 9vh;
+    font-size: 1.4vw;
+    color: #fff;
+    font-weight: 300;
+    border-radius: 0.8vh;
+    background-color: #e50914;
+    border: none;
+  }
+  .headerMainInput button:hover {
+    cursor: pointer;
+  }
+
+  /* Netflix Section 1 (TV) */
+
+  .greyEmptySection {
+    width: 100vw;
+    height: 2vh;
+    background-color: #212020;
+  }
+  .sectionTVBox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .sectionTVBoxDiv1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 4vh;
+    width: 38vw;
+    height: 40vh;
+  }
+
+  .sectionTVBoxDiv1 h1 {
+    font-size: 3.9vw;
+    font-weight: 900;
+  }
+  .sectionTVBoxDiv1 h3 {
+    font-size: 1.6vw;
+    font-weight: 500;
+  }
+
+  .sectionTVBoxDiv2 img {
+    width: 38vw;
+    height: 60vh;
+  }
+
+  /* Netflix TV section */
+
+  .sectionMobileBox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .sectionMobileBoxDiv1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 4vh;
+    width: 38vw;
+    height: 40vh;
+  }
+
+  .sectionMobileBoxDiv1 h1 {
+    font-size: 3.6vw;
+    font-weight: 900;
+  }
+  .sectionMobileBoxDiv1 h3 {
+    font-size: 1.6vw;
+    font-weight: 500;
+  }
+
+  .sectionMobileBoxDiv2 img {
+    width: 40vw;
+    height: 62vh;
+  }
+
+  /* FAQ */
+
+  .faqSectionContainer {
+    display: flex;
+    width: 100vw;
+    height: 150vh;
+    background-color: #000000;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    row-gap: 2vh;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    height: 13vh;
+    background-color: #302f2f;
+    padding: 0 2vw;
+  }
+
+  .container:hover {
+    background-color: #4f4b4b;
+    cursor: pointer;
+  }
+
+  .faqSectionContainer h1 {
+    font-size: 3.4vw;
+    font-weight: 900;
+  }
+  .container h2 {
+    font-weight: 500;
+  }
+  .container h1 {
+    font-size: 3.5vw;
+    font-weight: 700;
+  }
+
+  .faqSectionContainer h3 {
+    font-size: 1.6vw;
+    font-weight: 500;
+  }
+
+    /* faq input */
+
+    .headerMainInput1 {
+      height: 14vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .headerMainInput1 input {
+      width: 30vw;
+      height: 10vh;
+      background-color: transparent;
+      font-size: 1.2vw;
+      padding-top: 1vh;
+      padding-left: 2vw;
+      border-radius: 0.8vh;
+      border-color: #acacac;
+      margin: 0 1vw;
+    }
+    .headerMainInput1 input::placeholder {
+      font-size: 2vw;
+    }
+    .headerMainInput1 button {
+      width: 15vw;
+      height: 10vh;
+      font-size: 2vw;
+      color: #fff;
+      font-weight: 500;
+      background-color: #e50914;
+      border: none;
+      border-radius: 1vh;
+    }
+    .headerMainInput1 button:hover {
+      cursor: pointer;
+    }
+
+  /* footer Container */
+
+  .footerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100vw;
+    height: 75vh;
+    background-color: #000000;
+    color: #cac9c9;
+    font-size: 1.1vw;
+    padding-left: 10vw;
+  }
+
+  .footerContainer span {
+    text-decoration: underline;
+  }
+
+  .footerContainerUl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+    height: 28vh;
+  }
+
+  .footerContainerUl li {
+    list-style: none;
+    padding: 1vh 0;
+  }
+
+  .footerContainerUl li a {
+    text-decoration: underline;
+    color: #cac9c9;
+  }
+}
+
+/* max Width 992px */
+
+@media screen and (max-width: 992px) {
+  .headerContainer {
+    width: 100vw;
+    height: 90vh;
+    background-image: url(Assets/MainBackground.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .headerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 12.9vh;
+    padding: 0 2vw;
+  }
+
+  .headerNavImg1 {
+    width: 14vw;
+    height: 16vh;
+  }
+
+  .headerNavSection {
+    width: 24vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .headerNavButtonImg2 {
+    width: 2vw;
+    height: 3vh;
+  }
+
+  .headerNavSectionDiv1 button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 10vw;
+    height: 4.8vh;
+    font-size: 1.4vw;
+    background-color: transparent;
+    border: 0.1vh solid #ffffff;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 0.8vh;
+  }
+
+  .headerNavSectionDiv2 button {
+    background-color: #e50914;
+    width: 6vw;
+    height: 4.8vh;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.4vw;
+    border: none;
+    border-radius: 0.8vh;
+  }
+
+  .headerNavSectionDiv2 button:hover {
+    cursor: pointer;
+  }
+
+  /* Main Section */
+
+  .headerMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    width: 100vw;
+    height: 40vh;
+    margin: 16vh auto auto auto;
+  }
+
+  .headerMain h1 {
+    font-size: 4.8vw;
+    font-weight: 900;
+  }
+
+  .headerMain h2 {
+    font-size: 2.8vw;
+    font-weight: 400;
+  }
+
+  .headerMain h3 {
+    font-size: 1.9vw;
+    font-weight: 300;
+  }
+
+  .headerMainInput {
+    padding: 0 2vw;
+  }
+  .headerMainInput input {
+    width: 38vw;
+    height: 9vh;
+    background-color: transparent;
+    font-size: 1.5vw;
+    padding-left: 3vw;
+    border-radius: 0.8vh;
+    border-color: #acacac;
+  }
+
+  .headerMainInput button {
+    width: 18vw;
+    height: 9vh;
+    font-size: 2vw;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 0.8vh;
+    background-color: #e50914;
+    border: none;
+  }
+  .headerMainInput button:hover {
+    cursor: pointer;
+  }
+
+  /* Netflix Section 1 (TV) */
+
+  .greyEmptySection {
+    width: 100vw;
+    height: 2vh;
+    background-color: #212020;
+  }
+  .sectionTVBox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .sectionTVBoxDiv1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 4vh;
+    width: 38vw;
+    height: 40vh;
+  }
+
+  .sectionTVBoxDiv1 h1 {
+    font-size: 4.6vw;
+    font-weight: 900;
+  }
+  .sectionTVBoxDiv1 h3 {
+    font-size: 2.2vw;
+    font-weight: 300;
+  }
+
+  .sectionTVBoxDiv2 img {
+    width: 38vw;
+    height: 60vh;
+  }
+
+  /* Netflix TV section */
+
+  .sectionMobileBox {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .sectionMobileBoxDiv1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 4vh;
+    width: 38vw;
+    height: 40vh;
+  }
+
+  .sectionMobileBoxDiv1 h1 {
+    font-size: 4.6vw;
+    font-weight: 900;
+  }
+  .sectionMobileBoxDiv1 h3 {
+    font-size: 2.2vw;
+    font-weight: 500;
+  }
+
+  .sectionMobileBoxDiv2 img {
+    width: 40vw;
+    height: 62vh;
+  }
+
+  /* FAQ */
+
+  .faqSectionContainer {
+    display: flex;
+    width: 100vw;
+    height: 130vh;
+    background-color: #000000;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    row-gap: 2vh;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    height: 13vh;
+    background-color: #302f2f;
+    padding: 0 2vw;
+  }
+
+  .container:hover {
+    background-color: #4f4b4b;
+    cursor: pointer;
+  }
+
+  .faqSectionContainer h1 {
+    font-size: 3.4vw;
+    font-weight: 900;
+  }
+  .container h2 {
+    font-weight: 500;
+  }
+  .container h1 {
+    font-size: 3.2vw;
+    font-weight: 700;
+  }
+
+  .faqSectionContainer h3 {
+    font-size: 1.8vw;
+    font-weight: 500;
+  }
+
+    /* faq input */
+
+    .headerMainInput1 {
+      height: 14vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .headerMainInput1 input {
+      width: 80vw;
+      height: 8vh;
+      background-color: transparent;
+      font-size: 1.2vw;
+      padding-top: 1vh;
+      padding-left: 2vw;
+      border-radius: 0.8vh;
+      border-color: #acacac;
+    }
+    .headerMainInput1 input::placeholder {
+      font-size: 3.8vw;
+    }
+    .headerMainInput1 button {
+      width: 40vw;
+      height: 10vh;
+      font-size: 3vw;
+      color: #fff;
+      font-weight: 500;
+      background-color: #e50914;
+      margin-top: 3vh;
+      border: none;
+      border-radius: 1vh;
+    }
+    .headerMainInput1 button:hover {
+      cursor: pointer;
+    }
+
+  /* footer Container */
+
+  .footerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100vw;
+    height: 75vh;
+    background-color: #000000;
+    color: #cac9c9;
+    font-size: 1.6vw;
+    padding-left: 4vw;
+  }
+
+  .footerContainer span {
+    text-decoration: underline;
+  }
+
+  .footerContainerUl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+    height: 28vh;
+  }
+
+  .footerContainerUl li {
+    list-style: none;
+    padding: 1vh 0;
+  }
+
+  .footerContainerUl li a {
+    text-decoration: underline;
+    color: #cac9c9;
+  }
+}
+
+/* Max Width 768px */
+
+@media screen and (max-width: 768px) {
+  .headerContainer {
+    width: 100vw;
+    height: 80vh;
+    background-image: url(Assets/MainBackground.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .headerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 12.9vh;
+    padding: 0 5vw;
+  }
+
+  .headerNavImg1 {
+    width: 14vw;
+    height: 10vh;
+  }
+
+  .headerNavSection {
+    width: 34vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .headerNavButtonImg2 {
+    width: 1.6vw;
+    height: 2vh;
+  }
+
+  .headerNavSectionDiv1 button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 16vw;
+    height: 5vh;
+    font-size: 2vw;
+    background-color: transparent;
+    border: 0.1vh solid #ffffff;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 0.8vh;
+  }
+
+  .headerNavSectionDiv2 button {
+    background-color: #e50914;
+    width: 10vw;
+    height: 5vh;
+    color: #fff;
+    font-weight: 600;
+    font-size: 2vw;
+    border: none;
+    border-radius: 0.8vh;
+  }
+
+  .headerNavSectionDiv2 button:hover {
+    cursor: pointer;
+  }
+
+  /* Header Main */
+  .headerMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    width: 100vw;
+    height: 36vh;
+    margin: 16vh auto auto auto;
+  }
+
+  .headerMain h1 {
+    font-size: 4vw;
+    font-weight: bolder;
+  }
+
+  .headerMain h2 {
+    font-size: 2.4vw;
+    font-weight: 400;
+  }
+
+  .headerMain h3 {
+    font-size: 2.2vw;
+    font-weight: 500;
+  }
+
+  .headerMainInput {
+    padding: 2vh 4vw;
+  }
+  .headerMainInput input {
+    width: 44vw;
+    height: 10vh;
+    background-color: transparent;
+    font-size: 1.2vw;
+    padding-left: 2vw;
+    border-radius: 0.8vh;
+    border-color: #acacac;
+  }
+
+  .headerMainInput button {
+    width: 24vw;
+    height: 10vh;
+    font-size: 3vw;
+    color: #fff;
+    font-weight: 500;
+    border-radius: 0.8vh;
+    background-color: #e50914;
+  }
+  .headerMainInput button:hover {
+    cursor: pointer;
+  }
+
+  /* Netflix Section 1 (TV) */
+
+  .greyEmptySection {
+    width: 100vw;
+    height: 1.5vh;
+    background-color: #212020;
+  }
+  .sectionTVBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 120vh;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .sectionTVBoxDiv1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 40vh;
+    text-align: center;
+  }
+
+  .sectionTVBoxDiv1 h1 {
+    font-size: 4.8vw;
+    font-weight: 900;
+  }
+  .sectionTVBoxDiv1 h3 {
+    font-size: 2.8vw;
+    font-weight: 500;
+  }
+
+  .sectionTVBoxDiv2 img {
+    width: 80vw;
+    margin-bottom: 6vh;
+    height: 70vh;
+  }
+  /* Netflix TV section */
+
+  .sectionMobileBox {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100vw;
+    height: 120vh;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .sectionMobileBoxDiv1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 96vw;
+    height: 40vh;
+    text-align: center;
+  }
+
+  .sectionMobileBoxDiv1 h1 {
+    font-size: 4.4vw;
+    font-weight: 900;
+  }
+  .sectionMobileBoxDiv1 h3 {
+    font-size: 2.4vw;
+    font-weight: 500;
+  }
+
+  .sectionMobileBoxDiv2 img {
+    width: 90vw;
+    height: 80vh;
+    margin-bottom: 6vh;
+  }
+
+  /* FAQ */
+
+  .faqSectionContainer {
+    display: flex;
+    width: 100vw;
+    height: 140vh;
+    background-color: #000000;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    height: 12vh;
+    background-color: #302f2f;
+    padding: 0 1vw;
+  }
+
+  .container:hover {
+    background-color: #4f4b4b;
+    cursor: pointer;
+  }
+
+  .faqSectionContainer h1 {
+    font-size: 4.4vw;
+    font-weight: 900;
+  }
+  .container h2 {
+    font-size: 2.6vw;
+    font-weight: 500;
+  }
+  .container h1 {
+    font-size: 3.8vw;
+    font-weight: 700;
+  }
+
+  .faqSectionContainer h3 {
+    font-size: 2.3vw;
+    font-weight: 500;
+  }
+
+    /* faq input */
+
+    .headerMainInput1 {
+      height: 14vh;
+      width: 100vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .headerMainInput1 input {
+      width: 80vw;
+      height: 8vh;
+      background-color: transparent;
+      font-size: 1.2vw;
+      padding-top: 1vh;
+      padding-left: 2vw;
+      border-radius: 0.8vh;
+      border-color: #acacac;
+    }
+    .headerMainInput1 input::placeholder {
+      font-size: 3vw;
+    }
+    .headerMainInput1 button {
+      width: 40vw;
+      height: 10vh;
+      font-size: 3vw;
+      color: #fff;
+      font-weight: 500;
+      background-color: #e50914;
+      margin-top: 3vh;
+      border: none;
+      border-radius: 1vh;
+    }
+    .headerMainInput1 button:hover {
+      cursor: pointer;
+    }
+
+  /* footer Container */
+
+  .footerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100vw;
+    height: 60vh;
+    background-color: #000000;
+    color: #cac9c9;
+    font-size: 2vw;
+    padding-left: 5vw;
+  }
+
+  .footerContainer span {
+    text-decoration: underline;
+  }
+
+  .footerContainerUl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    height: 28vh;
+  }
+
+  .footerContainerUl li {
+    list-style: none;
+    padding: 1vh 0;
+  }
+
+  .footerContainerUl li a {
+    text-decoration: underline;
+    color: #cac9c9;
+  }
+}
+
+/* max Width 576 px */
+
+@media screen and (max-width: 576px) {
+  .headerContainer {
+    width: 100vw;
+    height: 66vh;
+    background-image: url(Assets/MainBackground.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .headerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    padding: 0 5vw;
+  }
+
+  .headerNavImg1 {
+    width: 22vw;
+    height: 10vh;
+  }
+
+  .headerNavSection {
+    width: 34vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .img3 {
+    display: none;
+  }
+  .headerNavButtonImg2 {
+    width: 3vw;
+    height: 3vh;
+  }
+
+  .headerNavSectionDiv1 button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15vw;
+    height: 4vh;
+    font-size: 3vw;
+    background-color: transparent;
+    border: 0.1vh solid #ffffff;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 0.8vh;
+  }
+
+  .headerNavSectionDiv2 button {
+    background-color: #e50914;
+    width: 15vw;
+    height: 4vh;
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.4vw;
+    border: none;
+    border-radius: 0.8vh;
+  }
+
+  .headerNavSectionDiv2 button:hover {
+    cursor: pointer;
+  }
+
+  /* Header Main */
+  .headerMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    width: 90vw;
+    height: 46vh;
+    margin: 6vh auto auto auto;
+    text-align: center;
+  }
+
+  .headerMain h1 {
+    font-size: 5.4vw;
+    font-weight: bolder;
+  }
+
+  .headerMain h2 {
+    font-size: 3.4vw;
+    font-weight: 500;
+  }
+
+  .headerMain h3 {
+    font-size: 3vw;
+    font-weight: 500;
+  }
+
+  .headerMainInput {
+    padding: 2vh 4vw;
+  }
+  .headerMainInput input {
+    width: 80vw;
+    height: 5vh;
+    background-color: transparent;
+    font-size: 1.2vw;
+    padding-left: 2vw;
+    border-radius: 0.8vh;
+    border-color: #acacac;
+  }
+  .headerMainInput input::placeholder {
+    font-size: 3vw;
+  }
+
+  .headerMainInput button {
+    width: 26vw;
+    height: 5vh;
+    font-size: 3vw;
+    color: #fff;
+    font-weight: 500;
+    background-color: #e50914;
+    margin-top: 3vh;
+  }
+  .headerMainInput button:hover {
+    cursor: pointer;
+  }
+
+  /* Netflix Section 1 (TV) */
+
+  .greyEmptySection {
+    width: 100vw;
+    height: 0.5vh;
+    background-color: #212020;
+  }
+  .sectionTVBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .sectionTVBoxDiv1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 18vh;
+    text-align: center;
+  }
+
+  .sectionTVBoxDiv1 h1 {
+    font-size: 6vw;
+    font-weight: 900;
+  }
+  .sectionTVBoxDiv1 h3 {
+    font-size: 3.1vw;
+    font-weight: 500;
+  }
+
+  .sectionTVBoxDiv2 img {
+    width: 80vw;
+    margin-bottom: 6vh;
+    height: 44vh;
+  }
+  /* Netflix TV section */
+
+  .sectionMobileBox {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100vw;
+    height: 94vh;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .sectionMobileBoxDiv1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 18vh;
+    text-align: center;
+  }
+
+  .sectionMobileBoxDiv1 h1 {
+    font-size: 6vw;
+    font-weight: 900;
+  }
+  .sectionMobileBoxDiv1 h3 {
+    font-size: 3.1vw;
+    font-weight: 500;
+  }
+
+  .sectionMobileBoxDiv2 img {
+    width: 80vw;
+    height: 48vh;
+    margin-bottom: 2vh;
+  }
+
+  /* FAQ */
+
+  .faqSectionContainer {
+    display: flex;
+    width: 100vw;
+    height: 120vh;
+    background-color: #000000;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    height: 10vh;
+    background-color: #302f2f;
+    padding: 0 3vw;
+  }
+
+  .container:hover {
+    background-color: #4f4b4b;
+    cursor: pointer;
+  }
+
+  .faqSectionContainer h1 {
+    font-size: 5vw;
+    font-weight: 900;
+  }
+
+  .mainHeading {
+    margin-bottom: 3vh;
+  }
+  .container h2 {
+    font-size: 3vw;
+    font-weight: 500;
+  }
+  .container h1 {
+    font-size: 3vw;
+    font-weight: 700;
+  }
+
+  .faqSectionContainer h3 {
+    font-size: 3vw;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 2vh;
+  }
+  /* faq input */
+
+  .headerMainInput1 {
+    height: 14vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerMainInput1 input {
+    width: 80vw;
+    height: 6vh;
+    background-color: transparent;
+    font-size: 1.2vw;
+    padding-top: 1vh;
+    padding-left: 2vw;
+    border-radius: 0.8vh;
+    border-color: #acacac;
+  }
+  .headerMainInput1 input::placeholder {
+    font-size: 3vw;
+  }
+  .headerMainInput1 button {
+    width: 30vw;
+    height: 6vh;
+    font-size: 3vw;
+    color: #fff;
+    font-weight: 500;
+    background-color: #e50914;
+    margin-top: 3vh;
+    border: none;
+    border-radius: 1vh;
+  }
+  .headerMainInput1 button:hover {
+    cursor: pointer;
+  }
+
+  /* footer Container */
+
+  .footerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100vw;
+    height: 70vh;
+    background-color: #000000;
+    color: #cac9c9;
+    font-size: 2.8vw;
+    padding-left: 5vw;
+  }
+
+  .footerContainer span {
+    text-decoration: underline;
+  }
+
+  .footerContainerUl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    height: 30vh;
+  }
+
+  .footerContainerUl li {
+    list-style: none;
+    padding: 1vh 0;
+  }
+
+  .footerContainerUl li a {
+    text-decoration: underline;
+    color: #cac9c9;
+  }
+}
+
+/* Max-Width 460  */
+
+@media screen and (max-width: 460px) {
+  .headerContainer {
+    width: 100vw;
+    height: 70vh;
+    background-image: url(Assets/MainBackground.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  .headerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 10vh;
+    padding: 0 5vw;
+  }
+
+  .headerNavImg1 {
+    width: 22vw;
+    height: 10vh;
+  }
+
+  .headerNavSection {
+    width: 34vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .img3 {
+    display: none;
+  }
+  .headerNavButtonImg2 {
+    width: 3vw;
+    height: 3vh;
+  }
+
+  .headerNavSectionDiv1 button {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 15vw;
+    height: 4vh;
+    font-size: 3vw;
+    background-color: transparent;
+    border: 0.1vh solid #ffffff;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 0.8vh;
+  }
+
+  .headerNavSectionDiv2 button {
+    background-color: #e50914;
+    width: 15vw;
+    height: 4vh;
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.4vw;
+    border: none;
+    border-radius: 0.8vh;
+  }
+
+  .headerNavSectionDiv2 button:hover {
+    cursor: pointer;
+  }
+  /* Header Main */
+  .headerMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #fff;
+    width: 90vw;
+    height: 50vh;
+    margin: 6vh auto auto auto;
+    text-align: center;
+  }
+
+  .headerMain h1 {
+    font-size: 7vw;
+    font-weight: bolder;
+  }
+
+  .headerMain h2 {
+    font-size: 3.8vw;
+    font-weight: 500;
+  }
+
+  .headerMain h3 {
+    font-size: 3.8vw;
+    font-weight: 500;
+  }
+
+  .headerMainInput {
+    padding: 1vh 4vw;
+  }
+  .headerMainInput input {
+    width: 80vw;
+    height: 6vh;
+    background-color: transparent;
+    font-size: 1.2vw;
+    padding-left: 2vw;
+    border-radius: 0.8vh;
+    padding-top: 1vh;
+    border-color: #acacac;
+  }
+  .headerMainInput input::placeholder {
+    font-size: 4vw;
+  }
+
+  .headerMainInput button {
+    width: 36vw;
+    height: 6vh;
+    font-size: 4vw;
+    color: #fff;
+    font-weight: 500;
+    background-color: #e50914;
+    margin-top: 3vh;
+  }
+  .headerMainInput button:hover {
+    cursor: pointer;
+  }
+
+  /* Netflix Section 1 (TV) */
+
+  .greyEmptySection {
+    width: 100vw;
+    height: 1vh;
+    background-color: #131313;
+  }
+  .sectionTVBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 74vh;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .sectionTVBoxDiv1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 18vh;
+    text-align: center;
+  }
+
+  .sectionTVBoxDiv1 h1 {
+    font-size: 8vw;
+    font-weight: 900;
+  }
+  .sectionTVBoxDiv1 h3 {
+    font-size: 4vw;
+    font-weight: 500;
+  }
+
+  .sectionTVBoxDiv2 img {
+    width: 80vw;
+    margin-bottom: 2vh;
+    height: 36vh;
+  }
+  /* Netflix TV section */
+
+  .sectionMobileBox {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100vw;
+    height: 84vh;
+    background-color: #000000;
+    color: #ffffff;
+  }
+
+  .sectionMobileBoxDiv1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    height: 18vh;
+    text-align: center;
+  }
+
+  .sectionMobileBoxDiv1 h1 {
+    font-size: 8vw;
+    font-weight: 900;
+  }
+  .sectionMobileBoxDiv1 h3 {
+    font-size: 4vw;
+    font-weight: 500;
+  }
+
+  .sectionMobileBoxDiv2 img {
+    width: 80vw;
+    height: 36vh;
+    margin-bottom: 2vh;
+  }
+
+  /* FAQ */
+
+  .faqSectionContainer {
+    display: flex;
+    width: 100vw;
+    height: 130vh;
+    background-color: #000000;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    height: 10vh;
+    background-color: #302f2f;
+    padding: 0 3vw;
+  }
+
+  .container:hover {
+    background-color: #4f4b4b;
+    cursor: pointer;
+  }
+
+  .faqSectionContainer h1 {
+    font-size: 7.4vw;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .mainHeading {
+    margin-bottom: 1vh;
+  }
+  .container h2 {
+    font-size: 4vw;
+    font-weight: 500;
+  }
+  .container h1 {
+    font-size: 3vw;
+    font-weight: 700;
+  }
+
+  .faqSectionContainer h3 {
+    font-size: 4vw;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 2vh;
+  }
+  /* faq input */
+
+  .headerMainInput1 {
+    height: 14vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .headerMainInput1 input {
+    width: 80vw;
+    height: 8vh;
+    background-color: transparent;
+    font-size: 1.2vw;
+    padding-top: 1vh;
+    padding-left: 2vw;
+    border-radius: 0.8vh;
+    border-color: #acacac;
+  }
+  .headerMainInput1 input::placeholder {
+    font-size: 3.8vw;
+  }
+  .headerMainInput1 button {
+    width: 40vw;
+    height: 10vh;
+    font-size: 3vw;
+    color: #fff;
+    font-weight: 500;
+    background-color: #e50914;
+    margin-top: 3vh;
+    border: none;
+    border-radius: 1vh;
+  }
+  .headerMainInput1 button:hover {
+    cursor: pointer;
+  }
+
+  /* footer Container */
+
+  .footerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100vw;
+    height: 66vh;
+    background-color: #000000;
+    color: #cac9c9;
+    font-size: 3.2vw;
+    padding-left: 5vw;
+  }
+
+  .footerContainer span {
+    text-decoration: underline;
+  }
+
+  .footerContainerUl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90vw;
+    height: 30vh;
+  }
+
+  .footerContainerUl li {
+    list-style: none;
+    padding: 1vh 0;
+  }
+
+  .footerContainerUl li a {
+    text-decoration: underline;
+    color: #cac9c9;
+  }
+}
